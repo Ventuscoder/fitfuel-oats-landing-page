@@ -80,7 +80,6 @@ h1 {
 }
 
 #testimonials {
-    padding: 5% 10%;
     text-align: center;
     background-color: #ef8172;
     color: #fff;
@@ -91,6 +90,10 @@ h2 {
     font-weight: 800;
     font-size: 3rem;
     line-height: 1.5;
+}
+
+.carousel-item {
+    padding: 5% 10%;
 }
 
 .testimonial-img {
