@@ -1,5 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
 }
 
 #title {
@@ -44,4 +46,31 @@ h1 {
 .title-image {
     width: 110%;
     transform: rotate(-45deg);
+}
+
+.feature-title, .feature-text {
+    text-align: center;
+}
+
+.feature-title {
+    font-weight: 800;
+}
+
+.feature-col {
+    margin: 5% 0;
+}
+
+.feature-row {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.feature-icon {
+    width: 100%;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
 }
