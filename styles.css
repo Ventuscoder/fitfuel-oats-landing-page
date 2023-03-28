@@ -40,7 +40,7 @@ h1 {
 }
 
 .purchase-btn {
-    margin: 5% 3% 5% 0;
+    margin: 3% 3% 3% 0;
 }
 
 .title-image {
@@ -50,6 +50,10 @@ h1 {
 
 #features {
     padding: 5% 10%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    bottom: 130px;
 }
 
 .feature-title, .feature-text {
