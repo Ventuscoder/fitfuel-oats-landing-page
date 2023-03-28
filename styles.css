@@ -16,7 +16,7 @@ body {
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 1.5;
 }
 
@@ -43,28 +43,11 @@ h1 {
     margin: 3% 3% 3% 0;
 }
 
-@keyframes rotateImage {
-    0% {transform: rotate(-45deg);}
-    17% {transform: rotate(-20deg);}
-    33% {transform: rotate(20deg);}
-    50% {transform: rotate(45deg);}
-    67% {transform: rotate(20deg);}
-    83% {transform: rotate(-20deg);}
-    100% {transform: rotate(-45deg);}
-}
-
-.title-image {
-    width: 110%;
-    animation-name: rotateImage;
-    animation-duration: 0.9s;
-    animation-iteration-count: infinite;
-}
-
 #features {
     padding: 5% 10%;
     background-color: white;
     position: relative;
-    bottom: 130px;
+    bottom: 100px;
 }
 
 .feature-title, .feature-text {
@@ -142,7 +125,66 @@ h3 {
     padding: 3% 2%;
 }
 
-
 .pricing-header {
     font-size: 1.5rem;
+}
+
+#cta {
+    background-color: #ff4c68;
+    padding: 8% 3% 10%;
+    text-align: center;
+}
+
+.cta-header {
+    margin: 40px auto;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.cta-row {
+    width: 40%;
+    margin: 0 auto;
+}
+
+#footer {
+    padding: 10vh 2%;
+    text-align: center;
+}
+
+.footer-icon {
+    display: inline-block;
+    margin: 10px;
+}
+
+@media (max-width: 1100px) {
+    h1 {
+        font-size: 2rem;
+    }
+    #features {
+        bottom: 140px;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 950px) {
+    #features {
+        bottom: 220px;
+    }
+}
+
+@media (max-width: 700px) {
+    .container-fluid {
+        padding: 2% 3%;
+    }
+    .title-image {
+        width: 80vw;
+    }
+    h1, .purchase-btn {
+        margin-bottom: 0;
+    }
+    h1 {
+        text-align: center;
+    }
+    .cta-row {
+        width: 80%;
+    }
 }
