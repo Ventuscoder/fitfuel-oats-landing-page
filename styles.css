@@ -48,6 +48,10 @@ h1 {
     transform: rotate(-45deg);
 }
 
+#features {
+    padding: 5% 10%;
+}
+
 .feature-title, .feature-text {
     text-align: center;
 }
@@ -61,7 +65,7 @@ h1 {
 }
 
 .feature-row {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -73,4 +77,34 @@ h1 {
 
 .feature-icon:hover {
     color: #ff4c68;
+}
+
+#testimonials {
+    padding: 5% 10%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
 }
