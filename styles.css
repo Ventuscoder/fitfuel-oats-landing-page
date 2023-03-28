@@ -43,9 +43,21 @@ h1 {
     margin: 3% 3% 3% 0;
 }
 
+@keyframes rotateImage {
+    0% {transform: rotate(-45deg);}
+    17% {transform: rotate(-20deg);}
+    33% {transform: rotate(20deg);}
+    50% {transform: rotate(45deg);}
+    67% {transform: rotate(20deg);}
+    83% {transform: rotate(-20deg);}
+    100% {transform: rotate(-45deg);}
+}
+
 .title-image {
     width: 110%;
-    transform: rotate(-45deg);
+    animation-name: rotateImage;
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite;
 }
 
 #features {
